@@ -18,9 +18,9 @@ header {
 .img-header {
   height: 20vh;
   width: 100vw;
-  background-image: url(images/bus-header.jpg);
+  background-image: url(images/bus-header.png);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 nav {
   display: flex;
