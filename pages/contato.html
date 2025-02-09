@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+      html {
+        font-family: "Noto Sans", serif;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+      }
+      p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Atendimento</h1>
+    <p>
+      Entre me contato com o preenchimento do formulário abaixo. Teremos o maior
+      prazer em atender ao seu contato.
+    </p>
+    <form>
+      <div>
+        <input type="radio" id="opcao1" name="grupo" value="valor1" />
+        <label for="opcao1">Pessoa física</label>
+        <input type="radio" id="opcao2" name="grupo" value="valor2" />
+        <label for="opcao2">Pessoa Jurídica</label>
+      </div>
+
+      <input type="text" id="nome" name="nome" placeholder="CPF" />
+      <input type="text" id="nome" name="nome" placeholder="Nome" />
+      <input type="email" id="nome" name="nome" placeholder="Email" />
+      <input type="tel" id="nome" name="nome" placeholder="(XX) XXXXX-XXXX" />
+      <input type="text" id="nome" name="nome" placeholder="Cidade" />
+      <select name="nome_do_campo" id="id_do_campo">
+        <option value="valor1">Selecione o assunto</option>
+        <option value="valor2">Assunto 1</option>
+        <option value="valor3">Assunto 2</option>
+      </select>
+      <textarea id="mensagem" name="mensagem" rows="4" cols="25"> </textarea>
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
